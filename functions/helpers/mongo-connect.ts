@@ -1,5 +1,5 @@
 /* eslint-disable require-jsdoc */
-import {defineString} from "firebase-functions/params";
+import { defineString } from "firebase-functions/params";
 
 import mongoose from "mongoose";
 
@@ -9,7 +9,7 @@ const url = defineString("MONGO_URL");
 const db = defineString("MONGO_DB");
 
 export default async function main() {
-  await mongoose.connect(
-    `mongodb+srv://${username.value()}:${pass.value()}@${url.value()}/${db.value()}`,
-  );
+    await mongoose.connect(
+        `mongodb+srv://${username.value()}:${pass.value()}@${url.value()}/${db.value()}`,
+    );
 }

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/cookie": "^0.6.0",
+    "cookie": "^0.6.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
